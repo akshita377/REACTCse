@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<script>
+let length = 10;
+let width = 5;
+
+document.write("Area = " + (length * width));
+</script>
+
+</body>
+</html>
