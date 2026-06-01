@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" id="name" placeholder="Enter Name">
+<button onclick="checkLength()">Check</button>
+
+<p id="result"></p>
+
+<script>
+function checkLength()
+{
+    let name = document.getElementById("name").value;
+
+    document.getElementById("result").innerHTML =
+    "Length = " + name.length;
+}
+</script>
+
+</body>
+</html>
