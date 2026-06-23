@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Even or Odd Checker</title>
+    <style>
+        body{
+            text-align: center;
+            margin-top: 150px;
+            background-color: #f4f4f4;
+        }
+        h2{
+            color: blue;
+        }
+        h3{
+            color: purple
+        }
+        button{
+            padding: 12px 25px;
+            font-size: 18px;
+            border-radius: 8px;
+            background-color: #4CAF50;
+            color: white;
+            
+        }
+    </style>
+</head>
+<body>
+    <h3>Web designing Workshop II</h3>
+    <h2>Even or Odd Checker</h2>
+    <button id="btn">Check Number</button>
+    <script>
+        let num = parseInt(prompt("Enter a Number"));
+
+        if(num % 2 == 0)
+        {
+            document.getElementById("btn").onclick = function()
+            {
+                alert("Number is Even");
+            };
+        }
+        else
+        {
+            document.getElementById("btn").onclick = function()
+            {
+                alert("Number is Odd");
+            };
+        }
+    </script>
+</body>
+</html>
